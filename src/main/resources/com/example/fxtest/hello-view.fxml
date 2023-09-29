@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="699.0" prefWidth="466.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fxtest.HelloController">
+   <children>
+      <ImageView fitHeight="306.0" fitWidth="389.0" layoutX="39.0" layoutY="459.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img.png" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="textArea" layoutX="11.0" layoutY="11.0" prefHeight="392.0" prefWidth="446.0" promptText="Input file to analize..." wrapText="true">
+         <font>
+            <Font size="16.0" />
+         </font></TextArea>
+      <Button fx:id="analizeButton" defaultButton="true" layoutX="240.0" layoutY="415.0" mnemonicParsing="false" onAction="#onAnalizeClick" prefHeight="19.0" prefWidth="140.0" text="Analize" textAlignment="CENTER">
+         <effect>
+            <Blend />
+         </effect>
+      </Button>
+      <Button fx:id="revertButton" disable="true" layoutX="87.0" layoutY="415.0" mnemonicParsing="false" onAction="#onRevertClick" prefHeight="19.0" prefWidth="140.0" text="Revert" textAlignment="CENTER">
+         <effect>
+            <Blend />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

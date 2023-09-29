@@ -1,0 +1,42 @@
+void:tipo
+
+if:Condicional
+else:Condicional
+while:Búcle
+for:Búcle
+return:Retorno de valor
+
+=:Asignación
+==:Operador lógico
+&&:Operador lógico AND
+||:Operador lógico OR
+
++:Operador
+-:Operador
+/:Operador
+*:Operador
+
++=:Operador y asignación
+-=:Operador y asignación
+*=:Operador y asignación
+/=:Operador y asignación
+
+>:Operador relacional
+<:Operador relacional
+>=:Operador relacional
+<=:Operador relacional
+
+string:Tipo
+int:Tipo
+float:Tipo
+byte:Tipo
+class:Tipo
+struct:Tipo
+
+(:Inicio Parentesis
+):Fin Parentesis
+{:Empieza Brackets
+}:Termina Brackets
+
+,:coma
+$:23
